@@ -1,6 +1,16 @@
 # Social Media Backend API
 
+[![Go Version](https://img.shields.io/badge/Go-1.24.1-blue.svg)](https://golang.org)
+[![Docker](https://img.shields.io/badge/Docker-Ready-blue.svg)](https://docker.com)
+[![Educational](https://img.shields.io/badge/License-Educational--Use-orange.svg)](#credits--license)
+
 A Go-based social media backend API built with modern web development practices.
+
+> ⚠️ **Disclaimer**: This project is based on a tutorial by [Tiago](https://youtu.be/h3fqD6IprIA?si=MyOXi4flYJrDWH0k). It was recreated as a personal learning exercise with modifications. Please refer to the original author's work for the official version.
+
+## Why I Built This
+
+This project was built to strengthen my skills in Go backend development, PostgreSQL, and containerized deployments. It demonstrates my ability to learn from tutorials, implement improvements, and create production-style applications for learning purposes.
 
 ## Project Overview
 
@@ -11,10 +21,6 @@ This is a learning project that demonstrates building a RESTful API using Go, fe
 - Chi router for HTTP handling
 - Environment-based configuration
 - Database migrations
-
-## Credits
-
-This project was created following a tutorial from [Tiago's YouTube channel](https://youtu.be/h3fqD6IprIA?si=MyOXi4flYJrDWH0k). The original author has their version available on GitHub. This is my implementation and learning exercise based on that tutorial.
 
 ## How This Project Differs from the Original
 
@@ -263,9 +269,13 @@ This is a learning project, but feel free to:
 4. Add tests if applicable
 5. Submit a pull request
 
-## License
+## Credits & License
 
-This project is for educational purposes. Please respect the original tutorial author's work.
+This project was built as a learning exercise by following [Tiago's YouTube tutorial](https://youtu.be/h3fqD6IprIA?si=MyOXi4flYJrDWH0k). I implemented my own version, added improvements, and fixed bugs. 
+
+**Original Source**: The tutorial and original source code are available on [Tiago's YouTube channel](https://youtu.be/h3fqD6IprIA?si=MyOXi4flYJrDWH0k) and [GitHub repository](https://github.com/sikozonpc/GopherSocial).
+
+**License**: This project is for educational purposes only. This repository should not be used for commercial purposes. Please respect the original tutorial author's work and refer to their repository for the official version.
 
 ---
 
