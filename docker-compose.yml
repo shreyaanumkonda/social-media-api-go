@@ -6,7 +6,7 @@ services:
     container_name: postgres-db
     environment:
       POSTGRES_DB: social
-      POSTGRES_PASSWORD: postgres
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
     volumes:
       - db-data:/var/lib/postgresql/data
       - ./scripts/schema.sql:/docker-entrypoint-initdb.d/schema.sql
@@ -18,7 +18,7 @@ services:
     build: .
     container_name: social-app
     environment:
-      - DB_ADDR=host=db port=5432 user=postgres password=postgres dbname=social sslmode=disable
+      - DB_ADDR=host=db port=5432 user=postgres password=${DB_PASSWORD} dbname=social sslmode=disable
       - ADDR=:8081
     ports:
       - "8081:8081"
